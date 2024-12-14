@@ -16,7 +16,7 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 wget https://raw.githubusercontent.com/parkxu465/parkxuverus/main/config.json -O ~/ccminer/config.json
 wget https://raw.githubusercontent.com/parkxu465/parkxuverus/main/1.sh -O ~/1.sh
-chmod +x ./1.sh
+
 chmod +x ~/ccminer/ccminer
 
 cat << EOF > ~/ccminer/start.sh
@@ -24,7 +24,7 @@ cat << EOF > ~/ccminer/start.sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 EOF
 chmod +x start.sh
-
+chmod +x ./1.sh
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
 
