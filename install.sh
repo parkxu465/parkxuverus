@@ -23,7 +23,7 @@ cat << EOF > ~/ccminer/start.sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 EOF
 chmod +x start.sh
-
+chmod a+x 1.sh
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
 
