@@ -1,4 +1,6 @@
 #!/bin/sh
+pkg install root-repo
+pkg install x11-repo
 yes | pkg update -y
 yes | pkg upgrade -y
 yes | pkg install libjansson wget nano -y
