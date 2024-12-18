@@ -11,4 +11,7 @@ wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer
 wget https://raw.githubusercontent.com/parkxu465/parkxuverus/main/config.json
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/start.sh
 chmod +x ccminer start.sh
+cd
+cd
+cd
 echo "cd ccminer/&&./start.sh" >> ../usr/etc/bash.bashrc
